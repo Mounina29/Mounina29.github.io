@@ -1,0 +1,47 @@
+html {
+	font-size: 10px; /* ceci est la taille de ma police*/
+	font-family: 'Kite One', sans-serif;/* ceci est mon type d'écriture choisi */
+	background-color: black; /*ceci est ma couleur d'arrière plan*/
+}
+
+h1{
+	color: black; /*ceci est la couleur des titres de mes articles*/
+	font-size: 40px; /*ceci est la taille de mon titre h1*/
+	text-align: center; /*ceci est l'emplacement de mon titre*/
+	letter-spacing: 1; /*ceci est l'espacement de mes lettres*/
+	margin: auto; /*ceci est la marge nulle*/
+	padding: 20px 0; 
+	text-shadow: 1px 1px 1px black; /* ceci apporte un effet d'ombre au titre*/
+}
+
+body {
+	width: 600px; /*taille de l'encadrement du texte body en px*/
+	margin: 0 auto;
+	background-color: grey; /*ceci est la couleur de fond de mon encadrement du body*/
+	padding: 0 40px 40px 40px; /*ceci correspond à la taille de l'espace intérieur*/
+	border: 5px white;/* ceci est une bordure pleine de 5px en blanc*/
+}
+
+p{
+	color: blue; /*ceci est la couleur de mes textes*/
+	font-size: 16px; /*ceci est la taille de mon texte dans le body*/
+	text-align: center; /*ceci est l'emplacement de mon texte dans le body*/
+	line-height: 2; /*ceci est la hauteur de mes lignes*/
+	letter-spacing: 1; /*ceci est l'espacement de mes lettres*/
+}
+
+li,ul{
+	color: blue; /*ceci est la couleur de mes listes*/
+	font-size: 16px; /*ceci est la taille de mes listes*/
+	text-align: right; /*ceci est l'emplacement de mes listes dans le body*/
+	line-height: 2; /*ceci est la hauteur de mes lignes*/
+	letter-spacing: 1; /*ceci est l'espacement de mes lettres*/
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto; /*c'est trois lignes ensembles me permettent de centrer mon image*/
+	width: 300px; /*ceci est la taille de mon image*/
+	height: 300px;/*ceci est la taille de mon image*/
+}
